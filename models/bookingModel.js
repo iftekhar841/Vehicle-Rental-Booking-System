@@ -13,7 +13,7 @@ const booking = mongoose.Schema({
         type: String,
         required:true
     },
-    rentedData: {
+    rentedDate: {
         type: Date,
         default: Date.now()
     }
